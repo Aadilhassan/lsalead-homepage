@@ -9,46 +9,42 @@ export default function Slider() {
     };
   
     return (
-        <div className='slider'>    <Carousel activeIndex={index} onSelect={handleSelect} style={{maxHeight: '80vh'}}>
+          <Carousel activeIndex={index} onSelect={handleSelect} style={{maxHeight: '80vh'}} controls={false}>
         <Carousel.Item>
           <img
-            className="d-block "
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg"
+            className="d-block w-100"
+            src="https://www.colorhexa.com/375466.png"
             alt="First slide"
           />
-          <Carousel.Caption>
-             <Button variant="outline-success m-1">Signin</Button>{' '}
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+         
+          <Carousel.Caption id='cap'>
+            <div className='cont'>
+          
+            <h1>Create Dashboard/Report with LSAlead and increase your target lead</h1 >
+            <Button variant="success m-6" >Gets Started</Button>{' '}
+            </div>
+               </Carousel.Caption>
         </Carousel.Item>
+     
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg"
-            alt="Second slide"
-          />
-  
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg"
+            src="https://www.colorhexa.com/375466.png"
             alt="Third slide"
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+          <div className='cont'>
+            <h1>DataSource+Database+APIs = LSAlead
+</h1>
+<Button variant="success m-6" >Gets Started</Button>{' '}
+           
+           
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      </div>
+   
   
     );
 }
