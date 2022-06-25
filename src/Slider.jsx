@@ -20,8 +20,8 @@ export default function Slider() {
           <Carousel.Caption id='cap'>
             <div className='cont'>
           
-            <h1>Create Dashboard/Report with LSAlead and increase your target lead</h1 >
-            <Button variant="success m-6" >Gets Started</Button>{' '}
+            <h1>Create Dashboard/Report with<span style={{color:'#4fcdd3'}}> LSAlead</span> and increase your target lead</h1 >
+            <Button variant="success mt-16" >Gets Started</Button>{' '}
             </div>
                </Carousel.Caption>
         </Carousel.Item>

@@ -1,10 +1,12 @@
 import Nav from "./Components/Nav";
 import Slider from "./Slider";
+import DataSources from "./DataSources";
 function App() {
   return (
-    <div className="App">
+    <div >
   <Nav />
-  <Slider />
+  <Slider style={{marginBottom:'700px'}}/>
+  <DataSources  />
     </div>
   );
 }
