@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     max-width: 100%;
     width: 100vw;
-    padding: 50px;
+    padding: 10px;
     background-color: white;
     justify-content: space-around;
     border: 1px;
@@ -25,13 +25,40 @@
     width: 120px;
     max-height: 50px;
     box-shadow: -1px 1px 10px 0px rgb(0 0 0 / 50%);
-    /* min-width: 220px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; */
+ 
     text-align: center;
 }
+
+
+
+
 p{
     margin-top: 10px;
     font-size: 12px;
 }
+
+
+@media only screen and (max-width: 400px) {
+    #dat{
+        background-color:#fff;
+        border-radius: 10px;
+        margin:0px;
+        margin-top: 10px;
+        width: 70px;
+        max-height: 50px;
+        box-shadow: -1px 1px 10px 0px rgb(0 0 0 / 50%);
+     
+        text-align: center;
+    }
+    
+    #img{
+        height: 20px;
+       float: left;
+       margin-top: 10px;
+    }
+    p{
+        margin-top: 6px;
+        font-size: 8px;
+    }
+    
+  }

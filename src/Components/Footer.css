@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+}
+.icon{
+   
+    font-size: 30px;
+    width: 40vw;
+    text-align: center;
+}
+.copy{
+    width: 60vw;
+    margin-top: 15px;
+    text-align: center;
+}

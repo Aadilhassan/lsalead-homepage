@@ -10,14 +10,16 @@ export default function Nav() {
         width="130px"
         height="50px"
         className="d-inline-block align-top"
-        alt="React Bootstrap logo"
+        alt="lsaLead logo"
       />
     </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
+ 
+    {/* <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'> */}
+    <div className='justify-contend-end'>
        <Button variant="outline-success m-1">Signin</Button>{' '}
        <Button variant="outline-info m-1">Signup</Button>{' '}
-    </Navbar.Collapse>
+       </div>
+    {/* </Navbar.Collapse> */}
   </Container>
 </Navbar>
   )

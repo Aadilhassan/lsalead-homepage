@@ -226,7 +226,7 @@ export default function DataSources() {
               
     ]
   return (
-   <div style={{marginTop:'120px'}} ><h1 style={{textAlign:'center'}}>DataSources</h1>
+   <div style={{marginTop:'120px'}} ><h1 style={{textAlign:'center'}}>Connect All Your Data To  <span style={{color:'blue'}}>One Plateform</span></h1>
    <div id='data'>
     
         {data.map((dat)=>{
