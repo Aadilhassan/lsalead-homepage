@@ -13,7 +13,7 @@ export default function Slider() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.colorhexa.com/375466.png"
+            src="https://www.colorhexa.com/0000ff.png"
             alt="First slide"
           />
          
@@ -29,7 +29,7 @@ export default function Slider() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.colorhexa.com/375466.png"
+            src="https://www.colorhexa.com/0000ff.png"
             alt="Third slide"
           />
   
